@@ -1,0 +1,41 @@
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 44.5%;
+    top: 15px;
+    color: #0b0b0c;
+}
+
+.nav-style{
+    background-color: black;
+    padding: 0px;
+}
+.cart-style{
+    font-size: 30px;color: white;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #31932f;
+    transition: width 1.6s ease;
+}
+.progress {
+    display: flex;
+    height: 5px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
